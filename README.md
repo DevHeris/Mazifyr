@@ -56,7 +56,7 @@ Get started with Mazifyr quickly by following these straightforward installation
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/DevHeris/mazifyr.git
+   git clone https://github.com/DevHeris/Mazifyr.git
    cd mazifyr
 
 ### Configuration ⚙️
