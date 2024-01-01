@@ -12,22 +12,15 @@ Welcome to Mazifyr – Your Ultimate Maze Editing and Gaming Companion!
    - [Maze Validation, Prevent Unplayable Configuration, and Feedback](#maze-validation-prevent-unplayable-configuration-and-feedback)
    - [Undo Mechanism](#undo-mechanism)
    - [Auto Correction](#auto-correction)
-   - [Toggle Walls](#toggle-walls)
-   - [Grid Generation](#grid-generation)
-   - [Preview Mode](#preview-mode)
-   - [Clear and Reset](#clear-and-reset)
-   - [Integration with Maze Game](#integration-with-maze-game)
-   - [Start and Goal Placement](#start-and-goal-placement)
+   - [Toggle Walls and Grid Generation](#toggle-walls-and-grid-generation)
+   - [Preview Mode and Clear/Reset](#preview-mode-and-clearreset)
+   - [Integration with Maze Game, Start and Goal Placement](#integration-with-maze-game-start-and-goal-placement)
    - [Customization Options](#customization-options)
-   - [Documentation](#documentation)
-   - [Toggle Edit Mode Function](#toggle-edit-mode-function)
-   - [Generate Random Maze](#generate-random-maze)
-   - [Save and Load Mazes](#save-and-load-mazes)
+   - [Documentation and Toggle Edit Mode Function](#documentation-and-toggle-edit-mode-function)
+   - [Generate Random Maze and Save/Load Mazes](#generate-random-maze-and-saveload-mazes)
    - [Undo and Redo](#undo-and-redo)
-   - [Customizable Maze Size](#customizable-maze-size)
-   - [User Feedback](#user-feedback)
-   - [Separation of Concern](#separation-of-concern)
-   - [Conditional Execution](#conditional-execution)
+   - [Customizable Maze Size and User Feedback](#customizable-maze-size-and-user-feedback)
+   - [Separation of Concern and Conditional Execution](#separation-of-concern-and-conditional-execution)
 
 3. **Getting Started**
    - [Installation](#installation)
@@ -75,29 +68,17 @@ Experiment fearlessly with maze design using the built-in undo mechanism. Easily
 
 Experience seamless maze refinement with Mazifyr's auto-correction feature. It automatically adjusts minor inconsistencies, maintaining a coherent and solvable structure.
 
-### Toggle Walls 🧱
+### Toggle Walls and Grid Generation 🧱📐
 
-Effortlessly switch between wall creation and removal modes. The toggle walls feature streamlines the editing process, allowing you to shape your maze with precision.
+Effortlessly switch between wall creation and removal modes. The toggle walls feature streamlines the editing process, allowing you to shape your maze with precision. Kickstart your maze creation with Mazifyr's intuitive grid generation. Define the dimensions, and Mazifyr automatically generates a structured grid, providing a foundation for your masterpiece.
 
-### Grid Generation 📐
+### Preview Mode and Clear/Reset 👁️🔄
 
-Kickstart your maze creation with Mazifyr's intuitive grid generation. Define the dimensions, and Mazifyr automatically generates a structured grid, providing a foundation for your masterpiece.
+Immerse yourself in your maze creation by entering preview mode. Visualize the maze as it will appear in the gaming environment, ensuring it meets your expectations. Start anew or make quick adjustments with the clear and reset functionality. Clear the current maze or revert to the initial grid, maintaining flexibility in your editing process.
 
-### Preview Mode 👁️
+### Integration with Maze Game, Start and Goal Placement 🎮🚦
 
-Immerse yourself in your maze creation by entering preview mode. Visualize the maze as it will appear in the gaming environment, ensuring it meets your expectations.
-
-### Clear and Reset 🔄
-
-Start anew or make quick adjustments with the clear and reset functionality. Clear the current maze or revert to the initial grid, maintaining flexibility in your editing process.
-
-### Integration with Maze Game 🎮
-
-Seamlessly transition between maze editing and gaming modes. Mazifyr's tight integration with a maze-solving game allows you to test and enjoy your creations instantly.
-
-### Start and Goal Placement 🚦
-
-Personalize your maze's challenge level by precisely placing the start and goal points. Experiment with different placements to create unique and engaging gameplay.
+Seamlessly transition between maze editing and gaming modes. Mazifyr's tight integration with a maze-solving game allows you to test and enjoy your creations instantly. Personalize your maze's challenge level by precisely placing the start and goal points. Experiment with different placements to create unique and engaging gameplay.
 
 ### Customization Options 🎨
 
