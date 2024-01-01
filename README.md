@@ -1,6 +1,6 @@
 # Mazifyr 🌀
 
-Welcome to Mazifyr – Your Ultimate Maze Editing and Gaming Companion!
+Welcome to Mazifyr! Let's dive into the world of maze design and gaming. Enjoy the creative journey! 🚀
 
 ## Overview
 
