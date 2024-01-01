@@ -4,7 +4,7 @@ Welcome to Mazifyr! Let's dive into the world of maze design and gaming. Enjoy t
 
 ## Overview
 
-Mazifyr empowers users to effortlessly create, customize, and enjoy mazes through a seamless editing and gaming experience. Whether you're a maze enthusiast, game developer, or someone seeking creative challenges, Mazifyr is designed for you.
+Mazifyr empowers users to effortlessly create, customize, and enjoy mazes through a seamless editing and gaming experience.
 
 **Target Audience:**
 - Maze Enthusiasts
