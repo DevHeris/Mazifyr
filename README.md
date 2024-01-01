@@ -2,20 +2,14 @@
 
 Welcome to Mazifyr – Your Ultimate Maze Editing and Gaming Companion!
 
-![Mazifyr Logo](link-to-your-logo)
-
 ## Table of Contents
 
 1. **Overview**
-   - Vision and Goals of Mazifyr
-   - Unique Value for Users
-   - Target Audience
+   - [Vision, Unique Value, and Target Audience](#vision-unique-value-and-target-audience)
 
 2. **Features at a Glance**
    - [Cursor Change](#cursor-change)
-   - [Maze Validation](#maze-validation)
-   - [Prevent Unplayable Configuration](#prevent-unplayable-configuration)
-   - [Feedback on Unplayable Configuration](#feedback-on-unplayable-configuration)
+   - [Maze Validation, Prevent Unplayable Configuration, and Feedback](#maze-validation-prevent-unplayable-configuration-and-feedback)
    - [Undo Mechanism](#undo-mechanism)
    - [Auto Correction](#auto-correction)
    - [Toggle Walls](#toggle-walls)
@@ -51,16 +45,13 @@ Ready to embark on your maze creation journey? Dive in, explore the features, an
 
 ## Overview
 
-### Vision and Goals of Mazifyr
+### Vision, Unique Value, and Target Audience
 
 Mazifyr aims to empower users to effortlessly create, customize, and enjoy mazes through a seamless editing and gaming experience. Whether you're a puzzle enthusiast, game developer, or just looking for a fun way to engage with mazes, Mazifyr is designed for you.
 
-### Unique Value for Users
-
 Mazifyr goes beyond traditional maze tools by providing a comprehensive set of features for both editing and gaming. It ensures an intuitive interface, advanced maze validation, customization options, and seamless integration with a maze-solving game.
 
-### Target Audience
-
+**Target Audience:**
 - Maze Enthusiasts
 - Game Developers
 - Puzzle Solvers
@@ -72,17 +63,9 @@ Mazifyr goes beyond traditional maze tools by providing a comprehensive set of f
 
 Enrich your maze editing experience with a dynamic cursor that adapts to different editing actions. Whether you're drawing walls or creating open passages, the cursor intuitively guides your interactions.
 
-### Maze Validation ✔️
+### Maze Validation, Prevent Unplayable Configuration, and Feedback 🚫
 
-Ensure maze integrity by utilizing advanced validation mechanisms. Mazifyr automatically checks for valid configurations, preventing unintended obstacles or impassable areas.
-
-### Prevent Unplayable Configuration 🚫
-
-Mazifyr intelligently identifies configurations that could render the maze unsolvable or overly challenging. By detecting potential issues during the editing process, it ensures a delightful gaming experience.
-
-### Feedback on Unplayable Configuration 📢
-
-Receive instant feedback when attempting to create an unplayable maze. Mazifyr provides clear notifications, guiding you to make adjustments for optimal playability.
+Ensure maze integrity by utilizing advanced validation mechanisms. Mazifyr intelligently identifies configurations that could render the maze unsolvable or overly challenging. By detecting potential issues during the editing process, it ensures a delightful gaming experience. Receive instant feedback when attempting to create an unplayable maze. Mazifyr provides clear notifications, guiding you to make adjustments for optimal playability.
 
 ### Undo Mechanism ↩️
 
