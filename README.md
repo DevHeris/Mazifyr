@@ -52,7 +52,12 @@ Mazifyr empowers users to effortlessly create, customize, and enjoy mazes throug
 
 ### Installation 🚀
 
-Get started with Mazifyr quickly by following the straightforward installation instructions.
+Get started with Mazifyr quickly by following these straightforward installation instructions:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Heris/mazifyr.git
+   cd mazifyr
 
 ### Configuration ⚙️
 
