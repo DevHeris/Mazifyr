@@ -1,84 +1,75 @@
 # Mazifyr 🌀
 
-Welcome to Mazifyr! Let's dive into the world of maze design and gaming. Enjoy the creative journey! 🚀
+Welcome to the Mazifyr!
 
 ## Overview
 
-Mazifyr empowers users to effortlessly create, customize, and enjoy mazes through a seamless editing and gaming experience.
+This maze game provides a dynamic and customizable adventure, allowing you to tweak various parameters for a personalized gaming experience.
 
-**Target Audience:**
-- Maze Enthusiasts
-- Game Developers
-- Puzzle Solvers
-- Educational Institutions
+## Customization Options
 
-## Features at a Glance
+1. **Colors:**
 
-- **Cursor Change 🖱️:** Enrich your maze editing experience with a dynamic cursor.
-  
-- **Maze Validation 🚫:** Ensure maze integrity with advanced validation mechanisms.
+- Adjust the visual aesthetics of your maze with customizable colors for walls, goal, and ball.
 
-- **Undo Mechanism ↩️:** Experiment fearlessly with maze design using the built-in undo mechanism.
+2. **Wall Thickness:**
 
-- **Auto Correction 🛠️:** Experience seamless maze refinement with auto-correction.
+- Fine-tune the thickness of maze walls to impact the challenge level.
 
-- **Toggle Walls and Grid Generation 🧱📐:** Effortlessly switch between wall creation and removal modes. Kickstart your maze creation with intuitive grid generation.
+3. **Difficulty Level:**
 
-- **Preview Mode and Clear/Reset 👁️🔄:** Immerse yourself in your maze creation and make quick adjustments.
+- Use the difficulty range input to set the challenge level of your maze.
 
-- **Integration with Maze Game, Start and Goal Placement 🎮🚦:** Seamlessly transition between maze editing and gaming modes. Personalize your maze's challenge level.
+4. **Ball Speed:**
 
-- **Customization Options 🎨:** Tailor your maze's appearance with various customization options.
-
-- **Documentation 📚:** Access comprehensive documentation for Mazifyr's features and functionalities.
-
-- **Toggle Edit Mode Function 🔄:** Switch seamlessly between maze editing and gaming modes.
-
-- **Generate Random Maze 🎲:** Spice up your creative process with a random maze generator.
-
-- **Save and Load Mazes 💾:** Save your masterpieces and revisit them later.
-
-- **Undo and Redo ↩️🔁:** Navigate your editing history effortlessly.
-
-- **Customizable Maze Size 📏:** Tailor your maze's dimensions to fit your creative vision.
-
-- **User Feedback 🗣️:** Stay informed and engaged with user feedback features.
-
-- **Separation of Concern 🚧:** Ensure clean and modular maze design.
-
-- **Conditional Execution 🔄:** Execute actions conditionally based on specific criteria.
+- Customize the speed of the ball within the maze.
 
 ## Getting Started
 
-### Installation 🚀
-
-Get started with Mazifyr quickly by following these straightforward installation instructions:
+To get started with the Mazifyr, follow these simple steps:
 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/DevHeris/Mazifyr.git
    cd mazifyr
+   ```
+2. Open `index.html` in your preferred web browser.
+3. Explore and enjoy the maze game with your personalized settings!
 
-### Configuration ⚙️
+## Customization Guide
 
-Tailor Mazifyr to your preferences with easy configuration options.
+Adjust the customization options directly in the game interface to see real-time changes. Experiment with different combinations to find your optimal maze configuration.
 
-### Tool Tip Messages 🛠️
+### Colors
 
-Effortlessly navigate through features with informative tool tip messages.
+- **Walls:** Change the color of maze walls for a visually appealing environment.
+- **Goal:** Customize the color of the goal to stand out within the maze.
+- **Ball:** Personalize the color of the ball for easy tracking during the game.
 
-### Status Bar or Panel 📊
+### Wall Thickness
 
-Stay informed about your editing status using the status bar or panel.
+Experiment with wall thickness to control the difficulty of navigating through the maze. Thicker walls pose a greater challenge for the player.
 
-### Configuration Dialogs 📑
+### Difficulty Level
 
-Access user-friendly configuration dialogs for seamless customization.
+Use the difficulty range input to fine-tune the challenge level. Increase the difficulty for a more complex maze or decrease it for a relaxing gaming experience.
 
-### Dynamic Information Display 📈
+### Ball Speed
 
-Experience real-time information updates with dynamic displays.
+Adjust the speed of the ball to control the pacing of the game. Increase the speed for an intense challenge or lower it for a more leisurely experience.
 
-## Conclusion
+## Technologies Used
 
-Mazifyr revolutionizes maze editing and gaming, offering an array of features and a user-friendly experience. A world of mazes, bring your ideas to life, and elevate your creativity with Mazifyr!
+- Matter.js: A 2D physics engine for the web.
+- HTML, CSS, and Vanilla JavaScript
+
+## Game Controls
+
+- **W:** Move the ball up.
+- **A:** Move the ball left.
+- **S:** Move the ball down.
+- **D:** Move the ball right.
+
+## Win Condition
+
+Collide the ball with the goal to win the game!

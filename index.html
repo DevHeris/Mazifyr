@@ -4,225 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mazifyr - Your Maze Editing Companion</title>
-    <style>
-        :root {
-            --background: hsl(222.2 84% 4.9%);
-            --foreground: hsl(210 40% 98%);
-            --primary: hsl(217.2 91.2% 59.8%);
-            --secondary: hsl(217.2 32.6% 17.5%);
-            --accent: hsl(217.2 32.6% 17.5%);
-            --muted: hsl(217.2 32.6% 17.5%);
-            --accent-foreground: hsl(210 40% 98%);
-            --muted-foreground: hsl(215 20.2% 65.1%);
-            --card: hsl(222.2 84% 4.9%);
-            --card-foreground: hsl(210 40% 98%);
-            --popover: hsl(222.2 84% 4.9%);
-            --popover-foreground: hsl(210 40% 98%);
-            --destructive: hsl(0 62.8% 30.6%);
-            --destructive-foreground: hsl(210 40% 98%);
-            --border: hsl(217.2 32.6% 17.5%);
-            --input: hsl(217.2 32.6% 17.5%);
-            --ring: hsl(224.3 76.3% 48%);
-            --radius: 0.5rem;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--background);
-            color: var(--foreground);
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        header {
-            background-color: var(--primary);
-            color: var(--primary-foreground);
-            text-align: center;
-            padding: 2em;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        section.hero {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 70vh;
-            background-image: url('maze-background.jpg');
-            background-size: cover;
-            background-position: center;
-            color: var(--primary-foreground);
-            text-align: center;
-        }
-
-        section.hero h1 {
-            font-size: 3em;
-            margin-bottom: 0.5em;
-        }
-
-        section.hero p {
-            font-size: 1.5em;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        section.features {
-            background-color: var(--card);
-            padding: 4em 2em;
-            text-align: center;
-        }
-
-        section.features h2 {
-            font-size: 2.5em;
-            margin-bottom: 1em;
-            color: var(--secondary);
-            transition: color 0.3s;
-        }
-
-        section.features ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-
-        section.features li {
-            flex: 1;
-            padding: 1em;
-            margin: 1em;
-            background-color: var(--muted);
-            border-radius: 8px;
-            transition: background-color 0.3s;
-        }
-
-        section.features li h3 {
-            text-transform: uppercase;
-        }
-
-        section.cta {
-            background-color: var(--primary);
-            color: var(--primary-foreground);
-            text-align: center;
-            padding: 4em 2em;
-        }
-
-        section.cta h2 {
-            font-size: 2.5em;
-            margin-bottom: 1em;
-        }
-
-        section.cta button {
-            font-size: 1.2em;
-            padding: 1em 2em;
-            background-color: var(--accent);
-            color: var(--accent-foreground);
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        section.maze-game,
-        section.editor {
-            background-color: var(--popover);
-            padding: 4em 2em;
-            text-align: center;
-            position: relative;
-            color: var(--foreground);
-        }
-
-        section.maze-game h2,
-        section.editor h2 {
-            font-size: 2.5em;
-            margin-bottom: 1em;
-            color: var(--accent);
-        }
-
-        section.maze-game p,
-        section.editor p {
-            font-size: 1.5em;
-            max-width: 600px;
-            margin: 0 auto;
-            color: var(--muted-foreground);
-        }
-
-        .navigation-button {
-            font-size: 1.2em;
-            padding: 1em 2em;
-            background-color: var(--accent);
-            color: var(--accent-foreground);
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-top: 1em;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        footer {
-            background-color: var(--secondary);
-            color: var(--secondary-foreground);
-            text-align: center;
-            padding: 2em;
-            transition: background-color 0.3s, color 0.3s;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="lib/matter-js-0.19.0/build/matter.min.js"></script>
+    <title>Mazifyr 🌀</title>
 </head>
 
 <body>
     <header>
-        <h1>Mazifyr</h1>
-        <p>Your Maze Editing Companion</p>
+        <h1>Mazifyr 🌀</h1>
     </header>
     <section class="hero">
         <div>
-            <h1>Unleash Your Creativity</h1>
-            <p>Effortlessly create, customize, and enjoy mazes with Mazifyr's seamless editing and gaming experience.
-            </p>
+            <h1>Your Maze, Your Rules</h1>
+            <p>Customize colors, wall thickness, difficulty, and ball speed for a unique gaming experience.</p>
         </div>
     </section>
-    <section class="features" id="features">
-        <h2>Key Features</h2>
-        <ul>
-            <li>
-                <h3>Dynamic Cursor</h3>
-                <p>Enrich your maze editing experience with a dynamic cursor.</p>
-            </li>
-            <li>
-                <h3>Undo Mechanism</h3>
-                <p>Experiment fearlessly with maze design using the built-in undo mechanism.</p>
-            </li>
-            <li>
-                <h3>Seamless Transition</h3>
-                <p>Seamlessly transition between maze editing and gaming modes.</p>
-            </li>
-            <li>
-                <h3>Random Maze Generator</h3>
-                <p>Spice up your creative process with a random maze generator.</p>
-            </li>
-            <li>
-                <h3>User Feedback Features</h3>
-                <p>Stay informed and engaged with user feedback features.</p>
-            </li>
-        </ul>
+    <section class="customization" id="customization">
+        <h2>Customization Options</h2>
+        <div class="customization-options">
+            <div class="customization-option" onclick="location.href='#colors'">Colors</div>
+            <div class="customization-option" onclick="location.href='#wall-thickness'">Wall Thickness</div>
+            <div class="customization-option" onclick="location.href='#difficulty'">Difficulty</div>
+            <div class="customization-option" onclick="location.href='#ball-speed'">Ball Speed</div>
+        </div>
     </section>
-    <section class="cta">
-        <h2>Ready to Transform Your Mazes?</h2>
-        <button onclick="location.href='#features'">Explore Features</button>
-    </section>
-    <section class="maze-game">
-        <h2>Maze Game</h2>
-        <p>Dive into the exciting world of mazes! Mazifyr's integrated maze game allows you to test and enjoy your
-            creations instantly.</p>
-        <!-- Button to navigate to features section -->
-        <button class="navigation-button" onclick="location.href='#features'">Explore Features</button>
-    </section>
-    <section class="editor">
-        <h2>Maze Editor</h2>
-        <p>Create intricate mazes with Mazifyr's intuitive and powerful maze editor. Tailor your designs and let
-            your creativity flow!</p>
-        <!-- Button to navigate to features section -->
-        <button class="navigation-button" onclick="location.href='#features'">Explore Features</button>
+    <section class="get-started">
+        <h2>Get Started</h2>
+        <button class="cta-button" onclick="location.href='#customization'">Explore Customization</button>
     </section>
     <footer>
         <p>&copy; 2024 Mazifyr. All rights reserved.</p>
