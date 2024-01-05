@@ -109,14 +109,14 @@ body {
 }
 
 .hero p {
-    font-size: 1.5em;
+    font-size: clamp(1em, 3vw, 1.5em);
     max-width: 600px;
     margin: 0 auto;
 }
 
 .customization {
-    background-color: var(--secondary);
-    padding: 4em 2em;
+    background-color: var(--background);
+    padding: 2em 2em 4em 2em;
     text-align: center;
     color: var(--secondary-foreground);
 }
@@ -128,7 +128,6 @@ body {
 }
 
 .customization-options {
-    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
@@ -136,7 +135,11 @@ body {
 }
 
 .customization-option {
-    width: 200px;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    /* padding: 10em; */
+    width: 17em;
     padding: 1em;
     background-color: var(--accent-foreground);
     color: var(--accent);
@@ -145,9 +148,19 @@ body {
     transition: background-color 0.3s, transform 0.3s;
 }
 
+.customization-option .svg-inline--fa {
+    font-size: 4em;
+}
+
+.customization-option span {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
 .customization-option:hover {
-    background-color: var(--accent-foreground);
+    background-color: hsla(210, 40%, 98%, 0.747);
     transform: scale(1.05);
+    color: var(--primary);
 }
 
 .get-started {
