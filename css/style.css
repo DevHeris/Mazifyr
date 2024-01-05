@@ -19,6 +19,7 @@ body {
 }
 
 header {
+    display: flex;
     background-color: var(--primary);
     color: var(--primary-foreground);
     text-align: center;
@@ -26,7 +27,7 @@ header {
     transition: background-color 0.3s, color 0.3s;
 }
 
-section.hero {
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,25 +39,25 @@ section.hero {
     text-align: center;
 }
 
-section.hero h1 {
+.hero h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
 }
 
-section.hero p {
+.hero p {
     font-size: 1.5em;
     max-width: 600px;
     margin: 0 auto;
 }
 
-section.customization {
+.customization {
     background-color: var(--secondary);
     padding: 4em 2em;
     text-align: center;
     color: var(--secondary-foreground);
 }
 
-section.customization h2 {
+.customization h2 {
     font-size: 2.5em;
     margin-bottom: 1em;
     color: var(--accent);
@@ -85,14 +86,14 @@ section.customization h2 {
     transform: scale(1.05);
 }
 
-section.get-started {
+.get-started {
     background-color: var(--primary);
     color: var(--primary-foreground);
     text-align: center;
     padding: 4em 2em;
 }
 
-section.get-started h2 {
+.get-started h2 {
     font-size: 2.5em;
     margin-bottom: 1em;
 }
