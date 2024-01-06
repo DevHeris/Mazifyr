@@ -37,7 +37,7 @@
     </header>
     <section class="hero flex">
         <div>
-            <h1>Your Maze, Your Rules</h1>
+            <h1>Your <span>Maze</span>, Your <span>Rules</span></h1>
             <p>Customize colors, wall thickness, difficulty, and ball speed for a unique gaming experience.</p>
         </div>
     </section>
@@ -62,13 +62,19 @@
             </div>
         </div>
     </section>
-    <section class="get-started">
+    <section class="get-started flex">
         <h2>Get Started</h2>
-        <button class="cta-button" onclick="location.href='#customization'">Explore Customization</button>
+        <div>
+            <button class="cta-button">
+                <span>Play now</span>
+                <i class="fa-solid fa-play"></i>
+            </button>
+        </div>
     </section>
     <footer>
-        <p>&copy; 2024 Mazifyr. All rights reserved.</p>
+        <p>&copy; <span class="year"></span> Mazifyr. All rights reserved.</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
